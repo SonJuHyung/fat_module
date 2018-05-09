@@ -1595,7 +1595,6 @@ int fat_fill_super_dku(struct super_block *sb, void *data, int silent, int isvfa
 	long error;
 	char buf[50];
 
-	trace_printk("72170148 SonJuHyung\n");
 	/*
 	 * GFP_KERNEL is ok here, because while we do hold the
 	 * superblock lock, memory pressure can't call back into
